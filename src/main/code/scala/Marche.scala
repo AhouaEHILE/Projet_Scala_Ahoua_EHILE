@@ -41,7 +41,7 @@ object Marche {
             tondeuseMarche.pivot("G")
           }
           else {
-            println(s" ${instructionMarche(j).toString} : Action non reconnue")// dans le cas ou nous avons la bonne instruction
+            println(s" ${instructionMarche(j).toString} : Action non reconnue")// dans le cas ou nous avons pas la bonne instruction
           }
         }
           // affiche la position de la tondeuse
