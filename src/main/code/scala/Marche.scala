@@ -6,7 +6,7 @@ import scala.io.Source
 object Marche {
   def main(args: Array[String]): Unit = {
     //recuperer le fichier test dans le dossier ressources
-    val lignes = Source.fromResource("test").getLines.toList
+    val lignes = Source.fromResource("test.txt").getLines.toList
     //récupérations de la longueur du fichier test (nombre de lignes)
     val longueur = lignes.length
 
